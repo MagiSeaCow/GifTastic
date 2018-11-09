@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+  <head>
+
+    <title>Giftastic</title>
+  	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container-fluid" id="main">
+    
+	    <!-- Title -->
+			<div class="jumbotron jumbotron-fluid text-center">
+					<div class="container">
+						<h1 class="display-4">Giftastic!</h1>
+						<p class="lead">Click on a button and make some GIFs of some of my favorite things!</p>
+					</div>
+
+					<!-- Buttons -->
+					<div class="row">
+						<div class="col-lg-12" id="buttonField"></div>
+					</div>
+
+					<!-- Input form for more buttons -->		
+					<div class="col-sm-3-justify-content-center">
+						<form>
+							<fieldset>
+								<label for="topic-input">Add a Button!</label><br>
+								<input type="text" placeholder="Give me a Subject!" id="topic-input">
+								<button type="submit" class="btnSubmit" data="submitBtn">Submit</button>
+							</fieldset>
+						</form>
+					</div>
+			</div>
+
+				<!-- Gif Population Area -->
+			<div class="row" id="forGifs">
+			
+			</div>	
+
+		<script src="assets/javascript/program.js"></script>
+
+  </body>
+
+</html>
